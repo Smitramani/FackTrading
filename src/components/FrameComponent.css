@@ -1,0 +1,90 @@
+.rectangle-div {
+  height: 96px;
+  width: 1126px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.hello-user1 {
+  margin: 0;
+  height: 24px;
+  width: 165px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-textfield {
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  flex: 1;
+  font-family: var(--font-abeezee);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-300);
+  z-index: 1;
+}
+.notification-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.portfolio-analytics-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent11 {
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-13xl) var(--padding-5xl)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-abeezee);
+}
+
+@media screen and (max-width: 1000px) {
+  .rectangle-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frame-parent11 {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hello-user1 {
+    font-size: var(--font-size-base);
+  }
+
+  .frame-parent11 {
+    flex-wrap: wrap;
+  }
+}

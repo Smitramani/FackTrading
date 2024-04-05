@@ -1,0 +1,148 @@
+.card1bg {
+  width: 315px;
+  height: 184px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(177.23deg, #9c2cf3, #3a49f9);
+  display: none;
+  z-index: 0;
+}
+.card-1-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.current-balance {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.vector {
+  width: 124px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 2;
+}
+.current-balance-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.b {
+  height: 53px;
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0px 0px;
+  box-sizing: border-box;
+}
+.mastercard-logo-icon {
+  height: 35.9px;
+  width: 45px;
+  position: relative;
+  z-index: 2;
+}
+.b-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-8xs);
+  gap: var(--gap-xl);
+}
+.frame1 {
+  height: 13px;
+  width: 165px;
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame2 {
+  height: 13px;
+  width: 39px;
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: right;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-parent19 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.card-1-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-4xs) 0px var(--padding-8xs);
+  color: var(--color-gray-700);
+}
+.card-1 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(177.23deg, #9c2cf3, #3a49f9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl);
+  position: relative;
+  gap: var(--gap-49xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-cera-pro);
+}
+
+@media screen and (max-width: 450px) {
+  .vector {
+    font-size: var(--font-size-3xl);
+  }
+
+  .b-parent {
+    flex-wrap: wrap;
+  }
+
+  .frame-parent19 {
+    flex-wrap: wrap;
+  }
+
+  .card-1 {
+    gap: var(--gap-15xl);
+  }
+}

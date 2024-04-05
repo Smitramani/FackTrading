@@ -1,0 +1,85 @@
+.mastercard-inc {
+  margin: 0;
+}
+.ma {
+  margin: 0;
+  color: var(--color-gray-200);
+}
+.mastercard-inc-ma-container {
+  width: 82px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.amazoncom-inc-amzn-container1 {
+  width: 100px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.mastercard-inc-ma-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.div18 {
+  width: 40px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs) 0px var(--padding-6xs);
+  color: var(--color-crimson-100);
+}
+.parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.empty-divider {
+  height: 14px;
+  width: 29px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.empty-divider-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs) 0px var(--padding-6xs);
+  color: var(--color-yellowgreen);
+}
+.frame-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  text-align: right;
+  color: var(--color-black);
+}
+.frame-parent13 {
+  width: 286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-abeezee);
+}

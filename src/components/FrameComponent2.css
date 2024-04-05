@@ -1,0 +1,61 @@
+.frame-button {
+  align-self: stretch;
+  flex: 1;
+}
+.frame-parent21 {
+  width: 90px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.microsoft-frame3 {
+  width: 101px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.span3 {
+  color: var(--color-red-100);
+}
+.ant-frame {
+  width: 53px;
+  height: 19px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.frame-divider2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-border1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-8xs) 0px 0px;
+}
+.frame-parent20 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-abeezee);
+}
+
+@media screen and (max-width: 450px) {
+  .microsoft-frame3 {
+    font-size: var(--font-size-lgi);
+  }
+}

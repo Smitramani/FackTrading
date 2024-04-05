@@ -1,0 +1,473 @@
+.watchlist1 {
+  height: 17px;
+  width: 61px;
+  position: relative;
+  display: inline-block;
+}
+.plus-icon1 {
+  height: 13.1px;
+  width: 13.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.watchlist-item3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  gap: var(--gap-xl);
+}
+.amazon-icon-1-12 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amazoncom-inc2 {
+  margin: 0;
+}
+.amzn2 {
+  margin: 0;
+  color: var(--color-gray-200);
+}
+.amazoncom-inc-amzn-container2 {
+  width: 101px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.amazoncom-inc-amzn-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 156px;
+}
+.div20 {
+  width: 40px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.div21 {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--color-yellowgreen);
+  display: inline-block;
+}
+.parent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: right;
+}
+.amazon-icon-1-1-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.coca-cola-6-1-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coca-cola-co-ko-container1 {
+  width: 77px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.coca-cola-co-ko-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 161px;
+}
+.div23 {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--color-crimson-100);
+  display: inline-block;
+}
+.coca-cola-6-1-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.bayerische-motoren-werke-container1 {
+  width: 169px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.m-s-f {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.m-s-f1 {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--color-yellowgreen);
+  display: inline-block;
+  z-index: 1;
+}
+.m-s-f-t-frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+}
+.microsoft-corp-msft-container1 {
+  width: 82px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.united-parcel-service-container1 {
+  width: 143px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+}
+.u-p-s-fame-u-p-s {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 151px;
+}
+.line-separator-parent {
+  width: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: right;
+}
+.company-logo-container {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+}
+.mastercard-2-1-icon1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 53px;
+  left: 0.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.line-div {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  border-top: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  width: 316px;
+  height: 1px;
+}
+.brand-icon-row {
+  position: absolute;
+  top: 43px;
+  left: 276px;
+  text-transform: uppercase;
+}
+.amazon-icon-1-13 {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.line-between-frames {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.u-p-s-frame {
+  position: absolute;
+  top: 6px;
+  left: 136px;
+  border-radius: var(--br-15xl);
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  z-index: 3;
+}
+.amazon-icon-1-1-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.line-parent {
+  width: 100%;
+  height: 69px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0.5px;
+  bottom: -7px;
+  left: 0.5px;
+  text-align: right;
+}
+.amazon-icon {
+  align-self: stretch;
+  height: 379px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.watchlist-item2 {
+  flex: 0.9324;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-2xs) 0px var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 329px;
+  max-width: 100%;
+}
+.tranding {
+  height: 17px;
+  width: 59px;
+  position: relative;
+  display: inline-block;
+}
+.plus-wrapper {
+  width: 24px;
+  border-radius: 4.36px;
+  background-color: var(--color-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5.454545497894287px var(--padding-8xs);
+  box-sizing: border-box;
+}
+.tranding-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-smi) 0px var(--padding-2xs);
+  gap: var(--gap-xl);
+}
+.bayerische-motoren-werke-container2 {
+  height: 28px;
+  width: 169px;
+  position: relative;
+  display: inline-block;
+}
+.bmw-1-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frame-parent16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.united-parcel-service-container2 {
+  height: 28px;
+  width: 143px;
+  position: relative;
+  display: inline-block;
+}
+.ups-container {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.mastercard-2-1-icon2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 53px;
+  left: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-child7 {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  border-top: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  width: 317px;
+  height: 1px;
+}
+.line-group {
+  width: calc(100% - 24px);
+  height: 69px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: -7px;
+  left: 12px;
+  text-align: right;
+}
+.frame-parent15 {
+  align-self: stretch;
+  height: 379px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.watchlist-item5 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 329px;
+  max-width: 100%;
+}
+.watchlist-item1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.watchlist-item {
+  width: 783px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-n {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: calc(100% - 315px);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-abeezee);
+}
+
+@media screen and (max-width: 1000px) {
+  .watchlist-item2 {
+    flex: 1;
+  }
+
+  .watchlist-item5 {
+    flex: 1;
+  }
+
+  .watchlist-item1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .amazon-icon-1-1-group {
+    flex-wrap: wrap;
+  }
+
+  .coca-cola-6-1-group {
+    flex-wrap: wrap;
+  }
+
+  .amazon-icon {
+    height: auto;
+  }
+
+  .frame-parent16 {
+    flex-wrap: wrap;
+  }
+
+  .frame-parent15 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .watchlist-item1 {
+    gap: var(--gap-lg);
+  }
+
+  .frame-n {
+    max-width: 100%;
+  }
+}

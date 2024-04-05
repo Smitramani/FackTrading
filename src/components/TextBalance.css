@@ -1,0 +1,104 @@
+.nvidia-1-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nvidia {
+  height: 14px;
+  width: 36px;
+  position: relative;
+  display: inline-block;
+}
+.line-axis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.nvda {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.line-connectors {
+  width: 33px;
+  height: 14px;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--color-yellowgreen);
+  display: inline-block;
+}
+.ellipse-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+.frame-dashboards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-10xs) 0px var(--padding-11xs);
+  gap: var(--gap-xl);
+}
+.current-value4 {
+  width: 80px;
+  height: 14px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.frame-amazonicon {
+  width: 60px;
+  height: 21px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.arrowright-direction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.group-companies-child {
+  height: 24px;
+  width: 78px;
+  position: relative;
+}
+.group-companies {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-gray-200);
+}
+.text-balance1 {
+  width: 214px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-paleturquoise);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  font-family: var(--font-abeezee);
+}

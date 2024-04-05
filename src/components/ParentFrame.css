@@ -1,0 +1,67 @@
+.sub-group {
+  align-self: stretch;
+  flex: 1;
+}
+.sub-group-parent {
+  width: 90px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.rupee {
+  width: 101px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.span2 {
+  color: var(--color-red-100);
+}
+.empty-space1 {
+  width: 53px;
+  height: 19px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.frame-divider1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-border {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-8xs) 0px 0px;
+}
+.child-frames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.parent-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-abeezee);
+}
+
+@media screen and (max-width: 450px) {
+  .rupee {
+    font-size: var(--font-size-lgi);
+  }
+}

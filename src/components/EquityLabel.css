@@ -1,0 +1,38 @@
+.balance1 {
+  width: 61px;
+  height: 19px;
+  position: relative;
+  display: inline-block;
+}
+.div17 {
+  height: 28px;
+  width: 130px;
+  position: relative;
+  display: inline-block;
+}
+.wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-smi);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.equity-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-abeezee);
+}
+
+@media screen and (max-width: 450px) {
+  .div17 {
+    font-size: var(--font-size-lgi);
+  }
+}
